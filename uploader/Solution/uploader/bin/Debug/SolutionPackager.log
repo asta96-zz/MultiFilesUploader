@@ -1,0 +1,19 @@
+2021-02-05 22:24:15.938 - Info	
+Packing C:\FEDEV\PCF\uploader\Solution\uploader\obj\Debug\Metadata to bin\Debug\uploader.zip
+
+2021-02-05 22:24:16.011 - Info	Processing Component: Entities
+2021-02-05 22:24:16.034 - Info	Processing Component: Roles
+2021-02-05 22:24:16.052 - Info	Processing Component: Workflows
+2021-02-05 22:24:16.053 - Info	Processing Component: FieldSecurityProfiles
+2021-02-05 22:24:16.053 - Info	Processing Component: Templates
+2021-02-05 22:24:16.060 - Info	Processing Component: EntityMaps
+2021-02-05 22:24:16.061 - Info	Processing Component: EntityRelationships
+2021-02-05 22:24:16.086 - Info	Processing Component: OrganizationSettings
+2021-02-05 22:24:16.089 - Info	Processing Component: optionsets
+2021-02-05 22:24:16.091 - Info	Processing Component: CustomControls
+2021-02-05 22:24:16.200 - Info	 - dksk.uploader
+2021-02-05 22:24:16.250 - Info	Processing Component: SolutionPluginAssemblies
+2021-02-05 22:24:16.254 - Info	Processing Component: EntityDataProviders
+2021-02-05 22:24:16.351 - Info	
+Unmanaged Pack complete.
+
