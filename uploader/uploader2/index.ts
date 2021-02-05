@@ -143,6 +143,7 @@ export class uploader
       nodetype.id = "progress" + counter;
       nodetype.file = files[i];
       var fileNode = document.createElement("li");
+      fileNode.className = "fileNode";
       const text = document.createTextNode(files[i].name);
       fileNode.appendChild(text);
       fileList.appendChild(fileNode);
@@ -208,7 +209,7 @@ export class uploader
     notesEntity["filesize"] = file.fileSize;
     notesEntity["mimetype"] = file.mimeType;
     notesEntity["subject"] = file.fileName;
-    notesEntity["notetext"] = "Attachments uploaded via PCF uploader";
+    // notesEntity["notetext"] = "Attachments uploaded via PCF uploader";
     notesEntity["objecttypecode"] = this.entityReference.typeName;
     notesEntity[
       `objectid_${this.entityReference.typeName}@odata.bind`

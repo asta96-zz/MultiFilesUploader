@@ -54,6 +54,7 @@
   height: auto;
   display: block;
   border: 2px dashed #bbbb;
+  padding: 5% 3%;
 }
 .main-container {
   display: flex;
@@ -62,7 +63,7 @@
 .buttons {
   background-color: rgba(130, 141, 158, 1);
   border: none;
-  color: black;
+  color: white;
   font-style: bold;
   padding: 15px 32px;
   padding-left: 100px;
@@ -72,6 +73,7 @@
   font-size: 20px;
   margin: 4px 4px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: default;
 }
 
 .files {
@@ -83,5 +85,16 @@
   font-size: medium;
   font-family: "Tahoma", Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
-  left
+}
+#catchedfileslist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+.fileNode {
+  margin: 10px;
+  padding: 10px;
 }
