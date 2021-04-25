@@ -1,3 +1,5 @@
+ 
+ Download the managed solution from <a href="https://github.com/asta96/MultiFilesUploader/releases/tag/v1.0"> here </a> 
  1. Install the managed solution "Uploader" in your environment. 
 	2. Open the form where you have your custom field (any entity with Notes setup available). If it is a new custom entity enable notes for it. 
 	3. Select the field and change control to _fileUploader from the list and click ok. 
